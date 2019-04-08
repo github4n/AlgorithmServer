@@ -1,0 +1,687 @@
+[2018-11-12 10:25:50,886][Thread-8:5264][task_id:django.request][base.py:93][WARNING][Not Found: /algorithm/content]
+[2018-11-12 10:26:10,566][Thread-9:11048][task_id:django.request][base.py:93][WARNING][Not Found: /algorithm/similar]
+[2018-11-12 10:27:32,290][Thread-7:7540][task_id:django][views.py:34][INFO][数据不能为空]
+[2018-11-12 10:28:44,005][Thread-10:11484][task_id:django][views.py:25][INFO][获取文章分词+getFenciWord+完成]
+[2018-11-12 19:05:27,130][Thread-7:9984][task_id:django][views.py:34][INFO][数据不能为空]
+[2018-11-12 19:05:56,807][Thread-8:10620][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:05:56,808][Thread-8:10620][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/similar]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python36\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2018-11-12 19:07:29,288][Thread-9:2948][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:07:29,293][Thread-9:2948][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/similar]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python36\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2018-11-12 19:08:19,056][Thread-67:18456][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:08:35,220][Thread-67:18456][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/similar]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python36\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2018-11-12 19:13:08,364][Thread-7:18764][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:13:24,604][Thread-8:19864][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:13:26,817][Thread-9:10892][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:13:31,277][Thread-10:2320][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-12 19:13:32,945][Thread-11:23164][task_id:django][views.py:40][INFO][数据similar加工完成]
+[2018-11-19 09:48:05,506][Thread-7:11680][task_id:django][views.py:23][INFO][获取文章分词+participle+完成]
+[2018-11-19 09:48:17,245][Thread-8:23196][task_id:django][views.py:23][INFO][获取文章分词+participle+完成]
+[2018-11-22 14:10:19,971][Thread-7:18928][task_id:django.request][base.py:93][WARNING][Not Found: /]
+[2018-11-22 14:10:20,042][Thread-8:10076][task_id:django.request][base.py:93][WARNING][Not Found: /favicon.ico]
+[2018-11-22 15:23:02,345][Thread-7:21860][task_id:django][qichachaLoginServcie.py:71][INFO][重置一天的账号登录状态为0个]
+[2018-11-22 15:23:02,348][Thread-7:21860][task_id:django][qichachaLoginServcie.py:76][INFO][修改当天可以使用账号的登录状态为可登录,清空登录状态0个]
+[2018-11-22 15:23:02,391][Thread-7:21860][task_id:django][qichachaLoginServcie.py:48][INFO][获得登录账号1个]
+[2018-11-22 15:23:02,398][Thread-7:21860][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/getCompany]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "C:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.4\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 420, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 52, in getCompany
+    result = qichachastart.getCompanyInfoByName(content)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 589, in getCompanyInfoByName
+    login()
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 547, in login
+    qichachalogin.login_qichacha(url=url,phone=phone,password=password)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachalogin.py", line 55, in login_qichacha
+    dirver = webdriver.Chrome(chrome_options=chrome_options)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 68, in __init__
+    self.service.start()
+  File "C:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+[2018-11-22 15:27:16,861][Thread-7:9820][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-21 15:27:16]
+[2018-11-22 15:27:16,867][Thread-7:9820][task_id:django][qichachaLoginServcie.py:71][INFO][重置一天的账号登录状态为0个]
+[2018-11-22 15:27:16,872][Thread-7:9820][task_id:django][qichachaLoginServcie.py:76][INFO][修改当天可以使用账号的登录状态为可登录,清空登录状态0个]
+[2018-11-22 15:27:16,873][Thread-7:9820][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 12:27:16]
+[2018-11-22 15:28:00,709][Thread-7:9820][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:28:00]
+[2018-11-22 15:28:29,871][Thread-7:9820][task_id:django][qichachaLoginServcie.py:48][INFO][获得登录账号1个]
+[2018-11-22 15:28:42,608][Thread-7:9820][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/getCompany]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "C:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.4\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 420, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 52, in getCompany
+    result = qichachastart.getCompanyInfoByName(content)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 589, in getCompanyInfoByName
+    login()
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 547, in login
+    qichachalogin.login_qichacha(url=url,phone=phone,password=password)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachalogin.py", line 55, in login_qichacha
+    dirver = webdriver.Chrome(chrome_options=chrome_options)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 68, in __init__
+    self.service.start()
+  File "C:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+[2018-11-22 15:36:38,603][Thread-7:15484][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:36:38]
+[2018-11-22 15:36:38,617][Thread-7:15484][task_id:django][qichachaLoginServcie.py:167][INFO][返回不需要重新登录的标识]
+[2018-11-22 15:36:38,617][Thread-7:15484][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/getCompany]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 52, in getCompany
+    result = qichachastart.getCompanyInfoByName(content)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 589, in getCompanyInfoByName
+    login()
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 541, in login
+    raise Exception("账号次数已用完")
+Exception: 账号次数已用完
+[2018-11-22 15:38:15,990][Thread-8:6940][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-21 15:38:15]
+[2018-11-22 15:38:15,995][Thread-8:6940][task_id:django][qichachaLoginServcie.py:71][INFO][重置一天的账号登录状态为0个]
+[2018-11-22 15:38:15,998][Thread-8:6940][task_id:django][qichachaLoginServcie.py:76][INFO][修改当天可以使用账号的登录状态为可登录,清空登录状态0个]
+[2018-11-22 15:38:15,999][Thread-8:6940][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 12:38:15]
+[2018-11-22 15:38:23,298][Thread-8:6940][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:38:23]
+[2018-11-22 15:38:23,301][Thread-8:6940][task_id:django][qichachaLoginServcie.py:48][INFO][获得登录账号1个]
+[2018-11-22 15:44:38,134][Thread-7:3848][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:44:38]
+[2018-11-22 15:44:38,149][Thread-7:3848][task_id:django][qichachaLoginServcie.py:167][INFO][返回不需要重新登录的标识]
+[2018-11-22 15:44:38,149][Thread-7:3848][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/getCompany]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 52, in getCompany
+    result = qichachastart.getCompanyInfoByName(content)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 589, in getCompanyInfoByName
+    login()
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 541, in login
+    raise Exception("账号次数已用完")
+Exception: 账号次数已用完
+[2018-11-22 15:46:40,432][Thread-8:19336][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:46:40]
+[2018-11-22 15:46:40,433][Thread-8:19336][task_id:django][qichachaLoginServcie.py:167][INFO][返回不需要重新登录的标识]
+[2018-11-22 15:46:55,154][Thread-8:19336][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/getCompany]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 52, in getCompany
+    result = qichachastart.getCompanyInfoByName(content)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 589, in getCompanyInfoByName
+    login()
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\qichacha\qichachastart.py", line 541, in login
+    raise Exception("账号次数已用完")
+Exception: 账号次数已用完
+[2018-11-22 15:51:52,428][Thread-7:22856][task_id:django][timeUtils.py:31][INFO][得到时间:2018-11-22 15:51:52]
+[2018-11-22 15:51:52,441][Thread-7:22856][task_id:django][qichachaLoginServcie.py:167][INFO][返回不需要重新登录的标识]
+[2018-11-30 16:02:43,045][Thread-4:3836][task_id:django.request][base.py:93][WARNING][Not Found: /favicon.ico]
+[2018-11-30 16:36:16,640][Thread-19:21904][task_id:django.request][base.py:93][WARNING][Not Found: /favicon.ico]
+[2018-11-30 16:57:43,392][Thread-25:10596][task_id:django.request][base.py:93][WARNING][Not Found: /algorithm;]
+[2018-11-30 16:57:51,555][Thread-26:4576][task_id:django.request][base.py:93][WARNING][Not Found: /algorithm/;]
+[2018-12-01 19:48:32,870][Thread-8:23536][task_id:django.request][base.py:93][WARNING][Not Found: /favicon.ico]
+[2018-12-01 19:48:41,552][Thread-9:21192][task_id:django.request][base.py:93][WARNING][Not Found: /test/algorithm/]
+[2018-12-01 19:49:02,600][Thread-11:24200][task_id:django.request][base.py:93][WARNING][Not Found: /test/algorithm/]
+[2018-12-01 19:50:56,651][Thread-12:15008][task_id:django.request][base.py:93][WARNING][Not Found: /test/algorithm/]
+[2018-12-01 19:51:00,845][Thread-13:18816][task_id:django.request][base.py:93][WARNING][Not Found: /test/algorithm/]
+[2018-12-01 19:52:47,717][Thread-14:17916][task_id:django.request][base.py:93][WARNING][Not Found: /test/algorithm/]
+[2018-12-11 11:14:38,643][Thread-7:14864][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 75, in download
+    data_json = simplejson.loads(request.body, encoding='utf-8')
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 535, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:14:52,416][Thread-8:12300][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 75, in download
+    data_json = simplejson.loads(request.body, encoding='utf-8')
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 535, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:16:39,985][Thread-9:5144][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 75, in download
+    data_json = simplejson.loads(request.body, encoding='utf-8')
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 535, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:17:20,482][Thread-7:18216][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 75, in download
+    data_json = simplejson.loads(str(request.body,encoding="utf-8"), encoding='utf-8')
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 535, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:21:32,125][Thread-7:5512][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 76, in download
+    data_json = simplejson.loads(body)
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:22:08,135][Thread-8:13128][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 76, in download
+    data_json = simplejson.loads(body)
+  File "C:\Python36\lib\site-packages\simplejson\__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "C:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:23:09,481][Thread-7:4400][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = json.loads(body)
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:30:55,692][Thread-7:11156][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = AjaxJson.loadsJsonByStrData(body)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\utils\AjaxJson.py", line 49, in loadsJsonByStrData
+    data = json.loads(data,encoding="utf-8")
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:32:28,658][Thread-8:16468][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = AjaxJson.loadsJsonByStrData(body)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\utils\AjaxJson.py", line 49, in loadsJsonByStrData
+    data = json.loads(data,encoding="utf-8")
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2018-12-11 11:34:17,403][Thread-9:16704][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = AjaxJson.loadsJsonByStrData(body)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\utils\AjaxJson.py", line 49, in loadsJsonByStrData
+    data = json.loads(data,encoding="utf-8")
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-12-11 11:34:49,452][Thread-10:2572][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = AjaxJson.loadsJsonByStrData(body)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\utils\AjaxJson.py", line 49, in loadsJsonByStrData
+    data = json.loads(data,encoding="utf-8")
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-12-11 11:38:08,729][Thread-11:11172][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    data_json = AjaxJson.loadsJsonByStrData(body)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\utils\AjaxJson.py", line 49, in loadsJsonByStrData
+    data = json.loads(data,encoding="utf-8")
+  File "C:\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-12-11 11:38:52,107][Thread-36:19216][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 79, in download
+    result = download.func(data_json["content"], data_json["url"], file_path.down_load_file)
+AttributeError: 'function' object has no attribute 'func'
+[2018-12-11 11:39:39,561][Thread-37:4928][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 79, in download
+    result = download.func(data_json["content"], data_json["url"], file_path.down_load_file)
+AttributeError: 'function' object has no attribute 'func'
+[2018-12-11 11:40:00,935][Thread-57:11008][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 79, in download
+    result = download.func(data_json["content"], data_json["url"], file_path.down_load_file)
+AttributeError: 'function' object has no attribute 'func'
+[2018-12-11 11:41:13,114][Thread-58:15304][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 79, in download
+    result = download.func(data_json["content"], data_json["url"], file_path.down_load_file)
+AttributeError: 'function' object has no attribute 'func'
+[2018-12-11 13:45:43,558][Thread-7:11704][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 79, in download
+    result = download.geturllist(data_json["content"], data_json["url"], file_path.down_load_file)
+AttributeError: 'function' object has no attribute 'geturllist'
+[2018-12-11 13:51:17,591][Thread-7:17876][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 80, in download
+    result = download.geturllist(data_json["content"], data_json["url"], down_load_path)
+AttributeError: 'function' object has no attribute 'geturllist'
+[2018-12-11 13:53:59,286][Thread-7:13180][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 80, in download
+    result = download.geturllist(content=data_json["content"], url_in=data_json["url"], file_suffix_path=down_load_path)
+AttributeError: 'function' object has no attribute 'geturllist'
+[2018-12-11 13:57:46,535][Thread-7:16640][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 80, in download
+    result = download.geturllist(contents=data_json["content"], url_in=data_json["url"],suffix_path=down_load_path)
+AttributeError: 'function' object has no attribute 'geturllist'
+[2018-12-11 14:01:33,528][Thread-7:16704][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/download]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 78, in download
+    result = download.geturllist(contents=data_json["content"], url_in=data_json["url"],suffix_path=down_load_path)
+AttributeError: 'function' object has no attribute 'geturllist'
+[2018-12-26 08:48:23,281][Thread-7:4692][task_id:django.request][base.py:93][WARNING][Not Found: /algorithmApp/correctArea]
+[2018-12-26 08:49:22,487][Thread-7:9184][task_id:django.request][base.py:93][WARNING][Not Found: /algorithmApp/correctArea]
+[2019-01-15 11:30:59,227][Thread-1:12564][task_id:django.request][base.py:93][WARNING][Not Found: /]
+[2019-01-15 11:32:04,768][Thread-3:1164][task_id:django.request][base.py:93][WARNING][Not Found: /]
+[2019-01-15 11:37:11,211][Thread-1:11692][task_id:langid.langid][langid.py:162][INFO][initializing identifier]
+[2019-01-15 11:37:16,086][Thread-1:11692][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/polarity_en]
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\svn-51\CODE\etom\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 108, in polarity_en
+    result = polarity_en.polarity_en(st)
+AttributeError: 'function' object has no attribute 'polarity_en'
+[2019-01-15 11:38:25,101][Thread-1:8648][task_id:langid.langid][langid.py:162][INFO][initializing identifier]
+[2019-01-15 14:47:27,866][Thread-7:19924][task_id:langid.langid][langid.py:162][INFO][initializing identifier]
+[2019-01-15 14:47:30,003][Thread-7:19924][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/polarityEn]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\textblob\decorators.py", line 35, in decorated
+    return func(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\textblob\tokenizers.py", line 57, in tokenize
+    return nltk.tokenize.sent_tokenize(text)
+  File "C:\Python36\lib\site-packages\nltk\tokenize\__init__.py", line 94, in sent_tokenize
+    tokenizer = load('tokenizers/punkt/{0}.pickle'.format(language))
+  File "C:\Python36\lib\site-packages\nltk\data.py", line 836, in load
+    opened_resource = _open(resource_url)
+  File "C:\Python36\lib\site-packages\nltk\data.py", line 954, in _open
+    return find(path_, path + ['']).open()
+  File "C:\Python36\lib\site-packages\nltk\data.py", line 675, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mpunkt[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt')
+  [0m
+  Searched in:
+    - 'C:\\Users\\10726/nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+    - 'C:\\Python36\\nltk_data'
+    - 'C:\\Python36\\share\\nltk_data'
+    - 'C:\\Python36\\lib\\nltk_data'
+    - 'C:\\Users\\10726\\AppData\\Roaming\\nltk_data'
+    - ''
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 108, in polarityEn
+    result = polarity_en.polarity_en(st)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\polarity_en\polarity_en.py", line 17, in polarity_en
+    for i in blob.sentences:
+  File "C:\Python36\lib\site-packages\textblob\decorators.py", line 24, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "C:\Python36\lib\site-packages\textblob\blob.py", line 639, in sentences
+    return self._create_sentence_objects()
+  File "C:\Python36\lib\site-packages\textblob\blob.py", line 683, in _create_sentence_objects
+    sentences = sent_tokenize(self.raw)
+  File "C:\Python36\lib\site-packages\textblob\base.py", line 64, in itokenize
+    return (t for t in self.tokenize(text, *args, **kwargs))
+  File "C:\Python36\lib\site-packages\textblob\decorators.py", line 38, in decorated
+    raise MissingCorpusError()
+textblob.exceptions.MissingCorpusError: 
+Looks like you are missing some required data for this feature.
+
+To download the necessary data, simply run
+
+    python -m textblob.download_corpora
+
+or use the NLTK downloader to download the missing data: http://nltk.org/data.html
+If this doesn't fix the problem, file an issue at https://github.com/sloria/TextBlob/issues.
+
+[2019-01-23 08:43:28,748][Thread-7:22416][task_id:bs4.dammit][dammit.py:381][WARNING][Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.]
+[2019-01-23 08:43:28,773][Thread-7:22416][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/autoSelect]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 123, in autoSelect
+    result = autoselect.Auto_select(html)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\auto_select\autoselect.py", line 41, in Auto_select
+    Class,Id=get_result(doc)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\auto_select\autoselect.py", line 21, in get_result
+    index = length.index(max(length))
+ValueError: max() arg is an empty sequence
+[2019-01-23 08:44:26,091][Thread-8:17856][task_id:bs4.dammit][dammit.py:381][WARNING][Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.]
+[2019-01-23 08:44:26,101][Thread-8:17856][task_id:django.request][exception.py:118][ERROR][Internal Server Error: /algorithm/autoSelect]
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python36\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\views.py", line 123, in autoSelect
+    result = autoselect.Auto_select(html)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\auto_select\autoselect.py", line 41, in Auto_select
+    Class,Id=get_result(doc)
+  File "C:\workFiles\svn\51-etomcode\po\data\py-data\AlgorithmServer\algorithmApp\auto_select\autoselect.py", line 21, in get_result
+    index = length.index(max(length))
+ValueError: max() arg is an empty sequence
+[2019-01-30 15:41:40,386][Thread-10:14384][task_id:django][views.py:141][INFO][string1或者string2不能为空]
+[2019-04-02 18:09:47,825][Thread-1:10828][task_id:django.request][base.py:93][WARNING][Not Found: /]
+[2019-04-02 18:09:47,919][Thread-3:24460][task_id:django.request][base.py:93][WARNING][Not Found: /favicon.ico]
+[2019-04-02 18:10:36,924][Thread-4:12664][task_id:django.request][base.py:93][WARNING][Not Found: //algorithm/ifurltrained]

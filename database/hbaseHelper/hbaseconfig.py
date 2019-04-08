@@ -1,0 +1,9 @@
+
+#HBASE数据库链接信息
+HBASE_HOST = '192.168.150.11'
+#HBASE数据库thirft默认端口
+HBASE_PORT = 9090
+#表名
+# HBASE_TABLENAME = 'po_test'
+#超时时间
+HBASE_TIMEOUT = 10000
